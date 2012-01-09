@@ -1,0 +1,126 @@
+#chat_bar .x-toolbar {
+	padding: 0;
+	border: none;
+	background-image: none;
+	background-color: #CFE1CF;
+}
+
+#chat_bar .x-btn-arrow {
+	background: none;
+	padding-right: 0px;
+}
+
+.chat-conversation .x-grid3-header {
+	display: none;
+}
+
+.chat-muc-users .x-grid3-header {
+	display: none;
+}
+
+.chat-conversation .x-grid3-row {
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+
+.chat-conversation .x-grid3-row-body {
+	white-space: pre-line;
+	word-wrap: break-word;
+	padding: 3px 3px 3px 5px;
+}
+
+.x-grid3-td-message .x-grid3-cell-inner, .x-grid3-td-message .x-grid3-hd-inner{
+	overflow: visible;
+	padding: 0px 3px 3px 5px;
+	white-space: normal;
+}
+
+#chat_list .x-menu-item-icon {
+	display: none;
+}
+
+#chat_list a.x-menu-item {
+	padding: 3px 3px 3px 3px;
+}
+
+.chat-menu .x-menu-list {
+	margin: 0;
+	padding: 0;
+}
+
+.chat-menu .x-menu-floating {
+	border: none;
+}
+
+.chatbox {
+	overflow: auto;
+}
+
+.chatbox .chatlink {
+	color: #000000;
+	text-decoration: none;
+	padding: 1px 0 2px 12px;
+	line-height: 10px;
+	font-size: 0.9em;
+
+	overflow: hidden;
+	white-space: nowrap;
+	
+	background: url(/img/status/user_online.gif) no-repeat left center; 
+}
+
+.chatbox .chatlink-over {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.chatbox .chatlink-new {
+	color: #FF0000 !important;
+}
+
+.chatbox .chatlink-open {
+	color: #0D6B0D !important;
+}
+
+.chatinput {
+	background-color: #FFFFFF;
+	border: none;
+	margin-left: 0;
+	/*
+	background-image: url(/img/extjs/default/form/text-bg.gif);
+	border-style: solid;
+	border-color: #B5B8C8;
+	border-width: 1 0 !important;
+	*/
+}
+
+.x-grid3-col-name, .x-grid3-col-time {
+	padding: 3px 3px 1px 5px;
+}
+
+.x-grid3-row-with-body .x-grid3-row-body {
+	padding: 0 3px 3px 5px;
+}
+
+.chat-state {
+	color: #999999;
+}
+
+#chat em.x-btn-arrow {
+	background-image: url("/img/arrow-r.gif");
+}
+
+.chat-menu-user {
+	background-image: url("/img/icons/user16.png") !important;
+	background-repeat: no-repeat;
+}
+
+.chat-menu-group {
+	background-image: url("/img/icons/group16.png") !important;
+	background-repeat: no-repeat;
+}
+
+.chat-menu-project {
+	background-image: url("/img/icons/project16.png") !important;
+	background-repeat: no-repeat;
+}
